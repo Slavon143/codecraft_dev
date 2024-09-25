@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="caa96e1f-5d69-4b08-a6a4-0096f6331851" name="codecrafts">
+        <fileTransfer accessType="SFTP" host="46.16.236.20" port="22" sshConfigId="e648940c-50d2-4587-9852-8155cab812a0" sshConfig="codecraf@46.16.236.20:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="20b1520e-fd0c-441b-82fb-fcbb25ac9355" name="arbeitsbot">
+        <fileTransfer rootFolder="/home/codecraf/arbeitsbot.nu" accessType="SFTP" host="46.16.236.20" port="22" sshConfigId="e648940c-50d2-4587-9852-8155cab812a0" sshConfig="codecraf@46.16.236.20:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
